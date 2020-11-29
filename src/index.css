@@ -1,3 +1,6 @@
+:root{
+  font-size: 16px;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,45 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.wrapper{
+  width: 600px;
+  margin: 0 auto;
+}
+.btn-x{
+  appearance: none;
+  height: 2rem;
+  width: 2rem;
+  padding: .5rem;
+  line-height: 1;
+  color: orangered;
+  background-color: transparent;
+  border-color: orangered;
+  border-radius: 50%;
+}
+
+.done{
+  text-decoration: line-through;
+}
+
+.todo-nothig{
+  font-size: 48px;
+  font-weight: 300;
+  font-style: italic;
+  color: darkorange;
+}
+
+.add-todo{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  width: 100%;
+}
+.add-todo__input{
+  padding: .5rem 1rem;
+  font-size: 1rem;
+}
+.add-todo__btn{
+  font-size: 1rem;
 }
